@@ -18,8 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Star Wars theme for Maelstrom.
 
 %description -l pl
-
-otyw Gwiezdne Wojny dla Maelstroma.
+Motyw Gwiezdne Wojny dla Maelstroma.
 
 %prep
 %setup -q -n Star_Wars
