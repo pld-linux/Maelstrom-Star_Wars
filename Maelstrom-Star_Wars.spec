@@ -5,8 +5,9 @@ Version:	1
 Release:	2
 License:	dunno
 Group:		X11/Applications/Games
-Source0:	http://www.devolution.com/~slouken/Maelstrom/add-ons/Star_Wars.tar.gz
-URL:		http://www.devolution.com/~slouken/Maelstrom/add-ons/
+# Source0-md5:	0cc78e3b844517bd226766312bb5c32c
+Source0:	http://www.devolution.com/~slouken/projects/Maelstrom/add-ons/Star_Wars.zip
+URL:		http://www.devolution.com/~slouken/projects/Maelstrom/add-ons.html
 Requires:	Maelstrom
 Obsoletes:	Maelstrom-1980
 Obsoletes:	Maelstrom-Star_Trek
