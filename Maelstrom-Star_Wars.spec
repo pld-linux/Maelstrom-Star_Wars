@@ -11,6 +11,7 @@ URL:		http://www.devolution.com/~slouken/projects/Maelstrom/add-ons.html
 Requires:	Maelstrom
 Obsoletes:	Maelstrom-1980
 Obsoletes:	Maelstrom-Star_Trek
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_gamedir	%{_datadir}/Maelstrom
