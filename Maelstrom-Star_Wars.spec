@@ -2,9 +2,9 @@ Summary:	Rockin' asteroids game - Star Wars theme
 Summary(pl):	Gra, w której strzelasz do asteroidów - motyw Gwiezdne Wojny
 Name:		Maelstrom-Star_Wars
 Version:	1
-Release:	1
+Release:	2
 License:	dunno
-Group:		X11/Application/Games
+Group:		X11/Applications/Games
 Source0:	http://www.devolution.com/~slouken/Maelstrom/add-ons/Star_Wars.tar.gz
 URL:		http://www.devolution.com/~slouken/Maelstrom/add-ons/
 Requires:	Maelstrom
