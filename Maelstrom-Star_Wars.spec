@@ -12,6 +12,9 @@ Obsoletes:	Maelstrom-1980
 Obsoletes:	Maelstrom-Star_Trek
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_prefix		/usr/X11R6
+%define		_gamedir	%{_datadir}/Maelstrom
+
 %description
 Star Wars theme for Maelstrom.
 
@@ -23,9 +26,9 @@ Temat Gwiezdne Wojny dla Maelstroma.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_prefix}/games/Maelstrom
+install -d $RPM_BUILD_ROOT%{_gamedir}
 
-install %* $RPM_BUILD_ROOT%{_prefix}/games/Maelstrom
+install %* $RPM_BUILD_ROOT%{_gamedir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -33,4 +36,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README*
-%{_prefix}/games/Maelstrom/*
+%{_gamedir}/*
