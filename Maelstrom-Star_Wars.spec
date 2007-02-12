@@ -1,5 +1,5 @@
 Summary:	Rockin' asteroids game - Star Wars theme
-Summary(pl):	Gra, w której strzelasz do asteroidów - motyw Gwiezdne Wojny
+Summary(pl.UTF-8):   Gra, w ktÃ³rej strzelasz do asteroidÃ³w - motyw Gwiezdne Wojny
 Name:		Maelstrom-Star_Wars
 Version:	1
 Release:	3
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Star Wars theme for Maelstrom.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw Gwiezdne Wojny dla Maelstroma.
 
 %prep
